@@ -158,7 +158,7 @@ void init(void) {
     map[0][2][MAP_WIDTH - 2] = 'B';   map[0][2][MAP_WIDTH - 3] = 'B';
     map[0][1][MAP_WIDTH - 4] = 'P';   map[0][1][MAP_WIDTH - 5] = 'P';
     map[0][2][MAP_WIDTH - 4] = 'P';   map[0][2][MAP_WIDTH - 5] = 'P';
-    map[1][MAP_HEIGHT - 4][MAP_WIDTH - 2] = 'H';
+    map[1][3][MAP_WIDTH - 2] = 'H';
 
     // 게임 시작 시 초기화할 다른 값들 설정
     resource.spice = 50;         // 초반 스파이스
